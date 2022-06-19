@@ -1,0 +1,32 @@
+body{
+  background-color: white;
+  /* text-align:center;
+  margin-top: 150px; */
+}
+.login{
+  text-align: center;
+  margin-top:100px;
+}
+h1{
+  font-family: 'Lobster', cursive;
+}
+
+input {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.username{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  align-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  /* flex-wrap: wrap; */
+  column-gap: 20px;
+}
+
+
